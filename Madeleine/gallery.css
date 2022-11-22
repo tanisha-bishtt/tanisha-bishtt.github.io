@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+  margin:0; padding:0;
+  box-sizing: border-box;
+  font-family: "goudy old style"
+}
+
+.container{
+  max-width: 85%;
+  margin:30px auto;
+}
+
+.container .title{
+  font-size: 40px;
+  font-family: goudy old style;
+  background-color: rgb(250, 215, 151);
+  color:#924706;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  padding:10px;
+  letter-spacing: 25px;
+}
+
+.container .image-container{
+  columns:3 250px;
+  gap:25px;
+}
+
+.container .image-container img{
+  margin-bottom: 30px;
+  border-radius: 15px;
+  width: 100%;
+}

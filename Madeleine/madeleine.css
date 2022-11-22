@@ -1,0 +1,345 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+ 
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'goudy old style';
+}
+.navbar{
+  position: fixed;
+  background-color:wheat  ;
+  width: 100%;
+  padding: 30px 0;
+  top: 0;
+  z-index: 100;
+  line-height: 20px;
+}
+.inner-width{
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  font-size: 40px;
+  font-weight: 100;
+  font-family: 'Great Vibes',sans-serif;
+  color: #222222;
+  cursor: pointer;
+}
+ 
+.search input{
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid #f1f1f1;
+    border-radius: 20px;
+    float: left;
+    width: 80%;
+    background:#f8f2e7;
+}
+.search button{
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background:#de6900;
+    color: white;
+    font-size: 17px;
+    border: 1px solid #de6900;
+    border-radius: 20px;
+    border-left: none;
+    cursor: pointer;
+}
+.search button:hover{
+    background: #de6900;
+}
+ 
+.navbar-menu a{
+  font-size: 13px;
+  font-weight: 500;
+  font-family: 'Raleway',sans-serif;
+  color: #222222;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-left: 35px;
+  display: inline-block;
+}
+.navbar-menu a::after{
+  content: '';
+  display: block;
+  width: 0;
+  height: 1.8px;
+  background-color: #de6900;
+  transition: width .3s;
+}
+.navbar-menu a:hover::after{
+  width: 100%;
+}
+#home{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: #222222;
+  background-color: #f8f2e7;
+  padding: 0 100px;
+}
+.content1{
+  display: flex;
+  flex-direction: column;
+  padding-top: 170px;
+}
+.title h1{
+  font-size: 40px;
+  font-family: "goudy old style";
+  font-weight: 500;
+  text-transform: lowercase;
+  margin-bottom: 30px;
+  letter-spacing: 15px;
+  text-align: left;
+}
+ 
+.image{
+  background-image: url("https://i.pinimg.com/564x/2f/2d/fa/2f2dfa265ba4835ffc2a40e1ca042232.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 600px;
+  height: 400px;
+}
+ 
+.content2{
+  display: flex;
+  flex-direction: column;
+  padding-top: 140px;
+  padding-left: 10px;
+}
+.content2 .image{
+  background-image: url("https://i.pinimg.com/564x/cf/32/5c/cf325cf24a6d8276da893e6d4205423d.jpg");
+}
+.title p{
+  margin-bottom: 0;
+  text-align: center;
+  margin-top: 33px;
+  font-size: 14px;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+.content2 button{
+  padding: 14px 27px;
+  margin-top: 30px;
+  background-color: #de6900;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: 'Raleway',sans-serif;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+.social-container{
+  position: absolute;
+  right: 55px;
+  bottom: 30%;
+}
+.social-icons{
+  list-style: none;
+  position: relative;
+}
+.social-icons li{
+  margin: 35px 0;
+}
+.social-icons li i{
+  color: #222222;
+  font-size: 20px;
+}
+.social-icons li a:hover i{
+  transform: scale(1.5);
+  color: #de6900;
+  transition: all .2s ease-in-out;
+}
+.social-icons::before{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 1px;
+  height: 190px;
+  top: -210px;
+  left: 8px;
+  background-color: #de6900;
+}
+ 
+.social-icons::after{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 1px;
+  height: 190px;
+  bottom: -210px;
+  left: 8px;
+  background-color: #de6900;
+}
+.hero{
+    text-align: center;
+}
+.hero h1{
+    font-size:60px;
+    font-family:goudy old style;
+    color:rgb(146, 85, 0);
+    letter-spacing:  5px;
+    margin-top: 3.5%;
+    text-align: center;
+    padding-top: 27px;
+}
+.hero p{
+    font-size: 25px;
+    color:black ;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    padding-bottom: 45px;
+    padding-top: 3px;
+}
+
+.storyimg {
+  background-image: url('s.png');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 20%;
+}
+   
+.newsletter-container{
+  background-color: #f8f2e7;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.picture{
+  width: 50%;
+  background: url(https://i.pinimg.com/originals/3d/09/bc/3d09bc0cb562fe3ebcef456e7a2c3c2c.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.newsletter{
+ width: 50%;
+ padding: 200px 8%; 
+}
+
+.newsletter h1{
+  margin-bottom: 20px;
+  color:rgb(146, 85, 0);
+  font-weight: 900;
+  font-size: 30px;
+  font-style: goudy old style;
+}
+
+.newsletter p{
+  margin-bottom: 40px;
+  font-size: 22px;
+  color: #777;
+}
+
+.newsletter-form{
+  height: 68px;
+  background-color: #de6900;
+  border-radius: 3px;
+  display: flex;
+  padding: 8px 0;
+}
+
+.emailInput,.btn{
+  background: none;
+  border: none;
+  font-size: 15px;
+  outline: none;
+  transition: .2s linear;
+}
+
+.emailInput{
+  width: calc(100% - 120px);
+  padding: 20px;
+  color: #f1f1f1;
+}
+
+.emailInput::placeholder{
+  color: #f1f1f1;
+}
+
+.emailInput:focus{
+  padding-left: 30px;
+}
+
+.btn{
+  width: 120px;
+  text-transform: uppercase;
+  color: #f1f1f1bb;
+  cursor: pointer;
+  border-left: 1px solid #777;
+}
+
+.btn:hover{
+  color: #f1f1f1;
+}
+
+@media screen and (max-width:900px){
+  .picture{
+      width: 100%;
+      height: 360px;
+  }
+  .newsletter{
+      width: 100%;
+      padding: 100px 20%;
+  }
+}
+
+@media screen and (max-width:600px){
+  .newsletter{
+      padding: 100px 30px;
+  }
+}
+
+
+
+.footer{
+  padding: 15px;
+  background-color: wheat;
+}
+.footer ul{
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+.footer ul li a{
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+.footer ul li{
+  display: inline-block;
+  padding: 0 15px;
+}
+.footer ul li a:hover{
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #de6900;
+}
+ 
+.orderbutton {
+  text-align: center;
+  font-variant: small-caps;
+}
+
+ 

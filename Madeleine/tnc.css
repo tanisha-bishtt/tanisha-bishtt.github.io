@@ -1,0 +1,33 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: "goudy old style";
+    background-color: rgb(255, 245, 225);
+}
+
+
+
+h2 {
+    margin-left: 15%;
+    color: brown;
+    font-size: 35px;
+}
+
+p  {
+    margin-left: 15%;
+    margin-right: 15%;
+    color: rgb(84, 9, 9);
+    font-size: 18px;
+    font-family:"Times New Roman', Times, serif";
+}
+
+h3 {
+    margin-left: 15%;
+    margin-right: 15%;
+    color: brown;
+    font-size: 24px;
+}
+
